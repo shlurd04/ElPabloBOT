@@ -2,9 +2,9 @@ from typing import Final
 from telegram import Update, LabeledPrice, InputMediaPhoto
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
 
-TOKEN: Final = "7770334087:AAH1YRRWxZlmfWJtkAx13wl46jEedT9kYCs"
+TOKEN: Final = "--------------------------------------------"
 BOT_USERNAME: Final = "@elpblo_bot"
-PAYMENT_PROVIDER_TOKEN: Final = '5322214758:TEST:a26a27e6-8f70-49d9-bcab-9e00a9b4e17d'
+PAYMENT_PROVIDER_TOKEN: Final = '----------------------------------------'
 PRICE_PER_ITEM = 6000
 
 active_orders = {}
